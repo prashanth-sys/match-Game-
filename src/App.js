@@ -416,6 +416,10 @@ class MatchGame extends Component {
         </div>
         {isGameOver ? (
           <div className="game-container">
+            <img
+              src="https://assets.ccbp.in/frontend/react-js/match-game-trophy.png "
+              alt="trophy"
+            />
             <h2>Game Over!</h2>
             <p>Your Score: {count}</p>
             <button
@@ -425,7 +429,7 @@ class MatchGame extends Component {
             >
               <img
                 src="https://assets.ccbp.in/frontend/react-js/match-game-play-again-img.png"
-                alt="shiva paravathi"
+                alt="reset"
               />{' '}
               PLAY AGAIN
             </button>
